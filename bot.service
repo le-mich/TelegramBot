@@ -5,9 +5,8 @@ Wants=network-online.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/python3 /path/to/your/Bot.py
+ExecStart=/usr/bin/python3 /path/to/your/bot.py
 Restart=on-failure
 
 [Install]
 WantedBy=default.target
-

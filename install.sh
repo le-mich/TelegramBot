@@ -1,32 +1,43 @@
-echo "Checking dependencies"
-echo ""
+if [[ ! -f ./bot.py || ! -f ./bot.service ]]
+then
+        echo "One or more files are missing or this is not the right base directory"
+        echo "Exiting"
+        exit
+fi
+
+echo "Checking dependencies:\n"
 
 if ! hash python3
 then
-        echo "python3 could not be found"
+        echo "\tpython3 could not be found"
+        echo "Exiting"
         exit
 else
-        echo "python3 found"
+        echo "\tpython3 found"
 fi
 
-for MODULE in telegram.ext logging sys datetime pytz
+for MODULE in telegram.ext logging sys datetime
 do
-        if python3 -c "import telegram.ext" &> /dev/null
+        if python3 -c "import $MODULE" &> /dev/null
         then
-                echo "$MODULE found"
+                echo "\t$MODULE found"
         else
-                echo "$MODULE could not be found"
+                echo "\t$MODULE could not be found"
+                echo "Exiting"
                 exit
         fi
 done
-echo ""
 
-echo "Editing the necessary files"
-echo ""
-sed -e "s/Bot Token/'$1'/g" -e "s/Chat ID/$2/g" -i ./InstanceElements.py
-sed -e "s/\(Exec.*\) \/.*/\1 $(pwd | sed -e 's/\//\\\//g')\/Bot.py/g" ./Bot.service | sudo tee /lib/systemd/system/Bot.service > /dev/null
+if [ ! -f ./instanceElements.py ]
+then
+        echo "\nCreating instanceElements.py"
+        echo "TK = '$1'" > instanceElements.py
+        echo "GID = $2" >> instanceElements.py
+fi
 
-echo "Starting and enabling the service"
-sudo systemctl start Bot.service
-sudo systemctl enable Bot.service
+echo "\nCreating and editing the service file"
+sed -e "s/\(Exec.*\) \/.*/\1 $(pwd | sed -e 's/\//\\\//g')\/bot.py/g" ./bot.service | sudo tee /lib/systemd/system/bot.service > /dev/null
 
+echo "\nStarting and enabling the service"
+sudo systemctl start bot.service
+sudo systemctl enable bot.service
