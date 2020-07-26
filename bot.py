@@ -29,7 +29,6 @@ def commandMixed_callback(context: CallbackContext):
 # fallback function: called when passed an unknown command
 def unknown(update, context):
     context.bot.send_message(chat_id=update.effective_chat.id, text='Wut?')
-    info(updater, context)
 
 
 def main():
