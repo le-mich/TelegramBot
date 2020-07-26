@@ -1,4 +1,4 @@
-if [[ ! -f ./bot.py || ! -f ./bot.service ]]
+if [ ! -f "./bot.py" ] || [ ! -f "./bot.service" ]
 then
         echo "One or more files are missing or this is not the right base directory"
         echo "Exiting"
@@ -18,7 +18,7 @@ fi
 
 for MODULE in telegram.ext logging sys datetime
 do
-        if python3 -c "import $MODULE" &> /dev/null
+        if python3 -c "import $MODULE" 2> /dev/null
         then
                 echo "\t$MODULE found"
         else
