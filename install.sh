@@ -1,3 +1,5 @@
+#! /bin/bash
+
 if [ ! -f "./bot.py" ] || [ ! -f "./bot.service" ]
 then
         echo "One or more files are missing or this is not the right base directory"
