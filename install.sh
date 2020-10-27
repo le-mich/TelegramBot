@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 
 if [ ! -f "./bot.py" ] || [ ! -f "./bot.service" ]
 then
@@ -7,15 +7,15 @@ then
         exit
 fi
 
-echo "Checking dependencies:\n"
+echo "=> Checking dependencies:"
 
-if ! hash python3
+if hash python3
 then
-        echo "\tpython3 could not be found"
+        echo "\tpython3 found"
+else
+        echo "\tpython3 could not be found... "
         echo "Exiting"
         exit
-else
-        echo "\tpython3 found"
 fi
 
 for MODULE in telegram.ext logging sys datetime
@@ -24,7 +24,7 @@ do
         then
                 echo "\t$MODULE found"
         else
-                echo "\t$MODULE could not be found"
+                echo "\t$MODULE could not be found... "
                 echo "Exiting"
                 exit
         fi
@@ -32,14 +32,22 @@ done
 
 if [ ! -f ./instanceElements.py ]
 then
-        echo "\nCreating instanceElements.py"
-        echo "TK = '$1'" > instanceElements.py
-        echo "GID = $2" >> instanceElements.py
+        echo "=> Creating instanceElements.py"
+        echo "TK = '$1'\nGID = '$2'" > instanceElements.py
+else
+		echo "=> instanceElements.py alredy present"
 fi
 
-echo "\nCreating and editing the service file"
-sed -e "s/\(Exec.*\) \/.*/\1 $(pwd | sed -e 's/\//\\\//g')\/bot.py/g" ./bot.service | sudo tee /lib/systemd/system/bot.service > /dev/null
+if [ $( ps -p 1 -o comm= ) = "systemd" ]
+then
+		echo "=> Creating and editing the service file"
+		sed "s/\(Exec.*\) \/.*/\1 $(pwd | sed 's/\//\\\//g')\/bot.py/g" ./bot.service | sudo tee /lib/systemd/system/bot.service > /dev/null
 
-echo "\nStarting and enabling the service"
-sudo systemctl start bot.service
-sudo systemctl enable bot.service
+		echo "=> Starting and enabling the service"
+		sudo systemctl start bot.service
+		sudo systemctl enable bot.service
+else
+		echo "=> Systemd not present, skipping..."
+fi
+
+echo "Done :)"
