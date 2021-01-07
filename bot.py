@@ -46,6 +46,7 @@ def main():
     dispatcher.add_handler(MessageHandler(Filters.command, unknown))
 
     updater.start_polling()
+    updater.idle()
     sys.exit()
 
 if __name__ == '__main__':
