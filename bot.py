@@ -7,12 +7,8 @@ from instanceElements import TK as TOKEN
 from instanceElements import GID as GROUPID
 
 # command use only functions
-def command(update, context):
-    context.bot.sendMessage(chat_id=update.effective_chat.id, text='stuff to send to the chat')
-
 def help(update, context):
     context.bot.sendMessage(chat_id=update.effective_chat.id, text="""/time - dispays the current time
-/command - calls the "command" command
 /help - shows this message""")
 
 # mixed use functions: can be called as a command from a user or automatically as a planned callback
