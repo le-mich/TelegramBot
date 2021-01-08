@@ -6,10 +6,13 @@ from datetime import time, datetime
 from instanceElements import TK as TOKEN
 from instanceElements import GID as GROUPID
 
+# init chat stages
+FILM, DATE = range(2)
+
 # command use only functions
 def help(update, context):
-    context.bot.sendMessage(chat_id=update.effective_chat.id, text="""/time - dispays the current time
-/help - shows this message""")
+    context.bot.sendMessage(chat_id=update.effective_chat.id, text="""/time - invia l'orario
+/help - mostra questo messaggio""")
 
 # mixed use functions: can be called as a command from a user or automatically as a planned callback
 def timeMixed(context, chat = GROUPID):
