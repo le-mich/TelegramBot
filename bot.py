@@ -6,9 +6,6 @@ from datetime import time, datetime
 from instanceElements import TK as TOKEN
 from instanceElements import GID as GROUPID
 
-# init chat stages
-FILM, DATE = range(2)
-
 # command use only functions
 def help(update, context):
     context.bot.sendMessage(chat_id=update.effective_chat.id, text="""/time - invia l'orario
@@ -44,7 +41,6 @@ def main():
 
     # defining the commands to which the bot will reply and the associated function
     dispatcher.add_handler(CommandHandler('help', help))
-    dispatcher.add_handler(CommandHandler('command', command))
     dispatcher.add_handler(CommandHandler('time', timeMixed_command))
     dispatcher.add_handler(MessageHandler(Filters.command, unknown))
 
