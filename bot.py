@@ -7,7 +7,7 @@ from instanceElements import TK as TOKEN
 from instanceElements import GID as GROUPID
 
 # init chat stages
-FILM, DATE = range(2)
+FILM, DATE, MAGNET = range(3)
 
 
 ### Help function
@@ -52,20 +52,32 @@ def insertFilm(update, context):
 def insertDate(update, context):
     global updater
 
-    temp = dict()
-
     date = update.message.text
     film = context.bot_data['film']
+
     chat_id = update.message.chat.id
+
+    context.bot_data['date'] = date
+
+    context.bot.sendMessage(chat_id = chat_id, text = 'Ho impostato un reminder per *{}* il {}! Se vuoi puoi mandare un magnet per il download, altrimenti invia "Done".'.format(film, date), parse_mode = 'Markdown')
+
+    return MAGNET
+
+def insertMagnet(update, context):
+
+    temp = dict()
+
+    chat_id = update.message.chat.id
+    magnet = update.message.text
+
+    temp['date'] = context.bot_data['date']
+    temp['film'] = context.bot_data['film']
+    temp['chat'] = chat_id
+    temp['magnet'] = magnet
 
     converted_date = datetime.strptime(date, '%d-%m-%Y')
 
-    temp['date'] = date
-    temp['film'] = film
-    temp['chat'] = chat_id
-
     updater.job_queue.run_once(film_callback, converted_date, context = temp)
-    context.bot.sendMessage(chat_id = chat_id, text = 'Ho impostato un reminder per *{}* il {}!'.format(film, date), parse_mode = 'Markdown')
 
     return ConversationHandler.END
 
@@ -73,8 +85,14 @@ def insertDate(update, context):
 def film_callback(context):
     chat_id = context.job.context['chat']
     film = context.job.context['film']
+    magnet = context.job.context['magnet']
 
-    context.bot.sendMessage(chat_id = chat_id, text = '*Reminder*: oggi dovete guardare {}'.format(film), parse_mode = 'Markdown')
+    if magnet == 'Done':
+        text_message = '*Reminder*: oggi dovete guardare {}'.format(film)
+    else:
+        text_message = '*Reminder*: oggi dovete guardare {}. Potete scaricare il film da [qui]({}) '.format(film, magnet)
+
+    context.bot.sendMessage(chat_id = chat_id, text = text_message, parse_mode = 'Markdown')
 
 
 ### Fallback functions
@@ -107,7 +125,8 @@ def main():
 
         states = {
             FILM: [MessageHandler(Filters.text, insertFilm)],
-            DATE: [MessageHandler(Filters.text, insertDate)]
+            DATE: [MessageHandler(Filters.text, insertDate)],
+            MAGNET [MessageHandler(Filters.text, insertMagnet)]
         },
 
         fallbacks = [MessageHandler(Filters.text, fallback)],
