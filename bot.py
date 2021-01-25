@@ -126,7 +126,7 @@ def main():
         states = {
             FILM: [MessageHandler(Filters.text, insertFilm)],
             DATE: [MessageHandler(Filters.text, insertDate)],
-            MAGNET [MessageHandler(Filters.text, insertMagnet)]
+            MAGNET : [MessageHandler(Filters.text, insertMagnet)]
         },
 
         fallbacks = [MessageHandler(Filters.text, fallback)],
