@@ -1,6 +1,6 @@
 #! /bin/sh
 
-if [ ! -f "./bot.py" ] || [ ! -f "./bot.service" ]
+if [ ! -f "./bot.py" ] || [ ! -f "./bot.service" ] || [ ! -f "./api.py" ]
 then
         echo "One or more files are missing or this is not the right base directory"
         echo "Exiting"
