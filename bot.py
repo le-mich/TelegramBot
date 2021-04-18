@@ -2,6 +2,9 @@ import logging, sys
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext, ConversationHandler
 from datetime import time, datetime
 
+# import API handler
+from api import API, SAVED_APIS
+
 # import sensitive elements from separated python document
 from instanceElements import TK as TOKEN
 from instanceElements import GID as GROUPID
@@ -18,9 +21,14 @@ def help(update, context):
 
 
 ### Time functions
+def timeMixed_content():
+    time = datetime.now().strftime("%A %d/%m/%y, %H:%M")
+    apiResult = apiHandler.callRandomEndpoint()
+    return "{}\n{}".format(time, apiResult)
+
 # base function
 def timeMixed(context, chat = GROUPID):
-    context.bot.sendMessage(chat_id = chat, text = datetime.now().strftime("%A %d/%m/%y, %H:%M"))
+    context.bot.sendMessage(chat_id = chat, text = timeMixed_content())
 
 # command and callback
 def timeMixed_command(update, context):
@@ -109,12 +117,15 @@ def fallback(context, update):
 
 def main():
     global updater
+    global apiHandler
 
     updater = Updater(TOKEN, use_context=True)
     dispatcher = updater.dispatcher
 
+    apiHandler = API(SAVED_APIS)
+
     logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
-    
+
     # scheduling of the callback functions to be called: timeMixed_callback every day of the week at 12:00 and 24:00 time of Rome (GMT+2 with daylight savings time)
     updater.job_queue.run_daily(timeMixed_callback, days=(0, 1, 2, 3, 4, 5, 6), time = time(hour = 10))
     updater.job_queue.run_daily(timeMixed_callback, days=(0, 1, 2, 3, 4, 5, 6), time = time(hour = 22))
@@ -126,7 +137,7 @@ def main():
         states = {
             FILM: [MessageHandler(Filters.text, insertFilm)],
             DATE: [MessageHandler(Filters.text, insertDate)],
-            MAGNET : [MessageHandler(Filters.text, insertMagnet)]
+            MAGNET: [MessageHandler(Filters.text, insertMagnet)]
         },
 
         fallbacks = [MessageHandler(Filters.text, fallback)],
