@@ -8,6 +8,12 @@ import requests
 import json
 import random
 
+# This APIs are automatically added to the pool, to add one
+# create a new tuple at the end of this list with
+#   - code: id of the REST API, just pick an original one
+#   - endpoint: the REST API endpoint
+#   - paramters: eventual parameters
+#   - callback: the function called on the response's body
 SAVED_APIS = [(
         "TAYLOR", # code
         "https://api.taylor.rest", # endpoint
