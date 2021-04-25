@@ -1,6 +1,7 @@
 import logging, sys
-from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext, ConversationHandler
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext, ConversationHandler, Defaults
 from datetime import time, datetime
+from pytz import timezone
 
 # import API handler
 from api import API, SAVED_APIS
@@ -21,6 +22,8 @@ def help(update, context):
 
 
 ### Time functions
+
+# content factory
 def timeMixed_content():
     time = datetime.now().strftime("%A %d/%m/%y, %H:%M")
     apiResult = apiHandler.callRandomEndpoint()
@@ -118,16 +121,18 @@ def main():
     global updater
     global apiHandler
 
-    updater = Updater(TOKEN, use_context=True)
+    defaults = Defaults(tzinfo=timezone('Europe/Rome'))
+    updater = Updater(TOKEN, defaults=defaults, use_context=True)
     dispatcher = updater.dispatcher
 
+    # Load saved apis
     apiHandler = API(SAVED_APIS)
 
     logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
     # scheduling of the callback functions to be called: timeMixed_callback every day of the week at 12:00 and 24:00 time of Rome (GMT+2 with daylight savings time)
-    updater.job_queue.run_daily(timeMixed_callback, days=(0, 1, 2, 3, 4, 5, 6), time=time(hour=10))
-    updater.job_queue.run_daily(timeMixed_callback, days=(0, 1, 2, 3, 4, 5, 6), time=time(hour=22))
+    updater.job_queue.run_daily(timeMixed_callback, time=time(hour=12))
+    updater.job_queue.run_daily(timeMixed_callback, time=time(hour=0))
 
     # setting up film handler
     film_handler = ConversationHandler(
