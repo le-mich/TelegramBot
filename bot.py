@@ -41,6 +41,12 @@ def timeMixed_callback(context: CallbackContext):
     timeMixed(context)
 
 
+### API functions
+
+def cache_callback(context: CallbackContext):
+    apiHandler.populateCache()
+
+
 ### Film functions
 # callable command
 def addFilm(update, context):
@@ -131,6 +137,7 @@ def main():
     logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
     # scheduling of the callback functions to be called: timeMixed_callback every day of the week at 12:00 and 24:00 time of Rome (GMT+2 with daylight savings time)
+    updater.job_queue.run_daily(cache_callback, time=time(hour=16,minute=45))
     updater.job_queue.run_daily(timeMixed_callback, time=time(hour=12))
     updater.job_queue.run_daily(timeMixed_callback, time=time(hour=0))
 

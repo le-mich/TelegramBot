@@ -64,13 +64,36 @@ SAVED_APIS = [(
 ]
 
 class API():
+
+    CACHE_MAX = 10
+
     def __init__(self, apis):
         self.__endpoints = {}
+        self.__cache = []
         for api in apis:
             self.addEndpoint(*api)
 
     def addEndpoint(self, code, ep, arguments, callback):
         self.__endpoints[code] = (ep, arguments, callback)
+
+    def populateCache(self):
+        size = len(self.__cache)
+        temp = []
+        for _ in range(API.CACHE_MAX - size):
+            temp.append(self.callRandomEndpoint())
+        self.__cache = temp
+
+    def checkCache(self):
+        if len(self.__cache) > 0:
+            return self.__cache.pop()
+        return None
+
+    def callRandomEndpoint(self):
+        if (res := self.checkCache()) is not None:
+            return res
+        code = random.choice(list(self.__endpoints.keys()))
+        while (res := self.callEndpoint(code)) is not None:
+            return res
 
     def callEndpoint(self, code):
         ep, kwargs, callback = self.__endpoints[code]
@@ -80,19 +103,17 @@ class API():
             except KeyError: traceback.print_exc()
         return None
 
-    def callRandomEndpoint(self):
-        code = random.choice(list(self.__endpoints.keys()))
-        while (res := self.callEndpoint(code)) is None:
-            continue
-        return res
-
     def __str__(self):
         return "\n".join("{} ({})".format(code, ep) for (code, (ep, _, _)) in self.__endpoints.items())
 
 if __name__ == "__main__":
-    # Test all saved APIs
-
     api = API(SAVED_APIS)
+    api.populateCache()
+
+    for _ in range(10):
+        print(api.callRandomEndpoint())
+
+    exit()
 
     for code, *_ in SAVED_APIS:
         print("=> " + code)
