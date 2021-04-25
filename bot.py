@@ -27,12 +27,12 @@ def timeMixed_content():
     return "{}\n{}".format(time, apiResult)
 
 # base function
-def timeMixed(context, chat = GROUPID):
-    context.bot.sendMessage(chat_id = chat, text = timeMixed_content())
+def timeMixed(context, chat=GROUPID):
+    context.bot.sendMessage(chat_id=chat, text=timeMixed_content())
 
 # command and callback
 def timeMixed_command(update, context):
-    timeMixed(context, chat = update.effective_chat.id)
+    timeMixed(context, chat=update.effective_chat.id)
 
 def timeMixed_callback(context: CallbackContext):
     timeMixed(context)
@@ -42,7 +42,7 @@ def timeMixed_callback(context: CallbackContext):
 # callable command
 def addFilm(update, context):
     chat_id = update.message.chat.id
-    context.bot.sendMessage(chat_id = chat_id, text='Vuoi aggiungere un nuovo film al calendario. Che film vuoi aggiungere?', parse_mode='Markdown')
+    context.bot.sendMessage(chat_id=chat_id, text='Vuoi aggiungere un nuovo film al calendario. Che film vuoi aggiungere?', parse_mode='Markdown')
 
     return FILM
 
@@ -52,7 +52,7 @@ def insertFilm(update, context):
     chat_id = update.message.chat.id
 
     context.bot_data['film'] = film
-    context.bot.send_message(chat_id = chat_id, text = 'Ok vuoi vedere {}. In che data? **(dd-mm-yyyy)**'.format(film), parse_mode='Markdown')
+    context.bot.send_message(chat_id=chat_id, text='Ok vuoi vedere {}. In che data? **(dd-mm-yyyy)**'.format(film), parse_mode='Markdown')
 
     return DATE
 
@@ -67,12 +67,11 @@ def insertDate(update, context):
 
     context.bot_data['date'] = date
 
-    context.bot.sendMessage(chat_id = chat_id, text = 'Ho impostato un reminder per *{}* il {}! Se vuoi puoi mandare un magnet per il download, altrimenti invia "Done".'.format(film, date), parse_mode = 'Markdown')
+    context.bot.sendMessage(chat_id=chat_id, text='Ho impostato un reminder per *{}* il {}! Se vuoi puoi mandare un magnet per il download, altrimenti invia "Done".'.format(film, date), parse_mode = 'Markdown')
 
     return MAGNET
 
 def insertMagnet(update, context):
-
     temp = dict()
 
     chat_id = update.message.chat.id
@@ -85,7 +84,7 @@ def insertMagnet(update, context):
 
     converted_date = datetime.strptime(date, '%d-%m-%Y')
 
-    updater.job_queue.run_once(film_callback, converted_date, context = temp)
+    updater.job_queue.run_once(film_callback, converted_date, context=temp)
 
     return ConversationHandler.END
 
@@ -100,7 +99,7 @@ def film_callback(context):
     else:
         text_message = '*Reminder*: oggi dovete guardare {}. Potete scaricare il film da [qui]({}) '.format(film, magnet)
 
-    context.bot.sendMessage(chat_id = chat_id, text = text_message, parse_mode = 'Markdown')
+    context.bot.sendMessage(chat_id=chat_id, text=text_message, parse_mode='Markdown')
 
 
 ### Fallback functions
@@ -110,7 +109,7 @@ def unknown(update, context):
 
 # conversation fallback
 def fallback(context, update):
-    context.bot.sendMessage(chat_id = chat_id, text = 'Deve esserci stato un errore, riprova.', parse_mode = 'Markdown')
+    context.bot.sendMessage(chat_id=chat_id, text='Deve esserci stato un errore, riprova.', parse_mode = 'Markdown')
 
     return ConversationHandler.END
 
@@ -127,8 +126,8 @@ def main():
     logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
     # scheduling of the callback functions to be called: timeMixed_callback every day of the week at 12:00 and 24:00 time of Rome (GMT+2 with daylight savings time)
-    updater.job_queue.run_daily(timeMixed_callback, days=(0, 1, 2, 3, 4, 5, 6), time = time(hour = 10))
-    updater.job_queue.run_daily(timeMixed_callback, days=(0, 1, 2, 3, 4, 5, 6), time = time(hour = 22))
+    updater.job_queue.run_daily(timeMixed_callback, days=(0, 1, 2, 3, 4, 5, 6), time=time(hour=10))
+    updater.job_queue.run_daily(timeMixed_callback, days=(0, 1, 2, 3, 4, 5, 6), time=time(hour=22))
 
     # setting up film handler
     film_handler = ConversationHandler(
