@@ -112,11 +112,11 @@ if __name__ == "__main__":
     api = API(SAVED_APIS)
     api.populateCache()
 
+    print("Calling 10 random endpoints")
     for _ in range(10):
         print(api.callRandomEndpoint())
 
-    exit()
-
+    print("Calling all available APIs")
     for code, *_ in SAVED_APIS:
         print("=> " + code)
         print(api.callEndpoint(code))
