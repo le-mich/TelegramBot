@@ -89,10 +89,12 @@ class API():
         return None
 
     def callRandomEndpoint(self):
-        if (res := self.checkCache()) is not None:
-            return res
+        res = self.checkCache()
+        if res is not None: return res
         code = random.choice(list(self.__endpoints.keys()))
-        while (res := self.callEndpoint(code)) is not None:
+        while True:
+            res = self.callEndpoint(code)
+            if res is None: continue
             return res
 
     def callEndpoint(self, code):

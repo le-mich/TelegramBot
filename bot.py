@@ -51,7 +51,7 @@ def cache_callback(context: CallbackContext):
 # callable command
 def addFilm(update, context):
     chat_id = update.message.chat.id
-    context.bot.sendMessage(chat_id=chat_id, text='Vuoi aggiungere un nuovo film al calendario. Che film vuoi aggiungere?', parse_mode='Markdown')
+    context.bot.sendMessage(chat_id=chat_id, text='Vuoi aggiungere un nuovo film al calendario. Che film vuoi aggiungere?')
 
     return FILM
 
@@ -61,7 +61,7 @@ def insertFilm(update, context):
     chat_id = update.message.chat.id
 
     context.bot_data['film'] = film
-    context.bot.send_message(chat_id=chat_id, text='Ok vuoi vedere {}. In che data? **(dd-mm-yyyy)**'.format(film), parse_mode='Markdown')
+    context.bot.send_message(chat_id=chat_id, text='Ok vuoi vedere {}. In che data? **(dd-mm-yyyy)**'.format(film))
 
     return DATE
 
@@ -76,7 +76,7 @@ def insertDate(update, context):
 
     context.bot_data['date'] = date
 
-    context.bot.sendMessage(chat_id=chat_id, text='Ho impostato un reminder per *{}* il {}! Se vuoi puoi mandare un magnet per il download, altrimenti invia "Done".'.format(film, date), parse_mode = 'Markdown')
+    context.bot.sendMessage(chat_id=chat_id, text='Ho impostato un reminder per *{}* il {}! Se vuoi puoi mandare un magnet per il download, altrimenti invia "Done".'.format(film, date))
 
     return MAGNET
 
@@ -108,7 +108,7 @@ def film_callback(context):
     else:
         text_message = '*Reminder*: oggi dovete guardare {}. Potete scaricare il film da [qui]({}) '.format(film, magnet)
 
-    context.bot.sendMessage(chat_id=chat_id, text=text_message, parse_mode='Markdown')
+    context.bot.sendMessage(chat_id=chat_id, text=text_message)
 
 
 ### Fallback functions
@@ -118,7 +118,7 @@ def unknown(update, context):
 
 # conversation fallback
 def fallback(context, update):
-    context.bot.sendMessage(chat_id=chat_id, text='Deve esserci stato un errore, riprova.', parse_mode = 'Markdown')
+    context.bot.sendMessage(chat_id=chat_id, text='Deve esserci stato un errore, riprova.')
 
     return ConversationHandler.END
 
@@ -127,7 +127,7 @@ def main():
     global updater
     global apiHandler
 
-    defaults = Defaults(tzinfo=timezone('Europe/Rome'))
+    defaults = Defaults(tzinfo=timezone('Europe/Rome'), parse_mode='Markdown')
     updater = Updater(TOKEN, defaults=defaults, use_context=True)
     dispatcher = updater.dispatcher
 
