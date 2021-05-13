@@ -6,6 +6,10 @@ from pytz import timezone
 # import API handler
 from api import API, SAVED_APIS
 
+# import imdb database and initialize object
+import imdb
+ia = imdb.IMDb()
+
 # import sensitive elements from separated python document
 from instanceElements import TK as TOKEN
 from instanceElements import GID as GROUPID
@@ -18,6 +22,7 @@ FILM, DATE, MAGNET = range(3)
 def help(update, context):
     context.bot.sendMessage(chat_id=update.effective_chat.id, text="""/time - invia l'orario
 /addFilm - avvia una chat per programmare un film
+/imdbFilm - manda il link di imdb del film cercato
 /help - mostra questo messaggio""")
 
 
@@ -45,6 +50,12 @@ def timeMixed_callback(context: CallbackContext):
 
 def cache_callback(context: CallbackContext):
     apiHandler.populateCache()
+
+
+### IMDB url functions
+def imdbFilm(update, context):
+    movies = ia.search_movie(update.message.text.replace('/imdbFilm ', ''))
+    context.bot.sendMessage(chat_id=update.effective_chat.id, text='Miglior match:\nhttps://www.imdb.com/title/tt{}'.format(movies[0].movieID))
 
 
 ### Film functions
@@ -157,6 +168,7 @@ def main():
 
     # defining the commands to which the bot will reply and the associated function
     dispatcher.add_handler(film_handler)
+    dispatcher.add_handler(CommandHandler('imdbFilm', imdbFilm))
     dispatcher.add_handler(CommandHandler('help', help))
     dispatcher.add_handler(CommandHandler('time', timeMixed_command))
     dispatcher.add_handler(MessageHandler(Filters.command, unknown))
