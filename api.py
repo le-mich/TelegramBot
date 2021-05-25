@@ -51,11 +51,6 @@ SAVED_APIS = [(
         {"headers": {"Accept": "application/json"}},
         lambda t: "{}\n{}".format(json.loads(t)["contents"]["jokes"][0]["joke"]["title"], json.loads(t)["contents"]["jokes"][0]["joke"]["text"])
     ), (
-        "TRUMP",
-        "https://api.tronalddump.io/random/quote",
-        {},
-        lambda t: "Donald Trump once said: " + json.loads(t)["value"]
-    ), (
         "INSULT",
         "https://evilinsult.com/generate_insult.php?lang=en&type=json",
         {},
