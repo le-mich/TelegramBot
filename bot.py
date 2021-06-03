@@ -21,7 +21,7 @@ FILM, DATE, MAGNET = range(3)
 ### Help function
 def help(update, context):
     context.bot.sendMessage(chat_id=update.effective_chat.id, text="""/orario - invia l'orario
-/dì - fa dire qualcosa ad Elsa
+/di - fa dire qualcosa ad Elsa
 /aggiungiFilm - avvia una chat per programmare un film
 /imdb - manda il link di imdb del film cercato
 /aiuto - mostra questo messaggio""")
@@ -55,7 +55,7 @@ def cache_callback(context: CallbackContext):
 
 ### "say" function
 def say(update, context, chat=GROUPID):
-    phrase = update.message.text.replace('/dì ', '')
+    phrase = update.message.text.replace('/di ', '')
     context.bot.sendMessage(chat_id=chat, text=phrase)
 
 ### IMDB url functions
@@ -174,7 +174,7 @@ def main():
 
     # defining the commands to which the bot will reply and the associated function
     dispatcher.add_handler(film_handler)
-    dispatcher.add_handler(CommandHandler('dì', say))
+    dispatcher.add_handler(CommandHandler('di', say))
     dispatcher.add_handler(CommandHandler('imdb', imdbFilm))
     dispatcher.add_handler(CommandHandler('aiuto', help))
     dispatcher.add_handler(CommandHandler('orario', timeMixed_command))
