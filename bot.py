@@ -54,9 +54,9 @@ def cache_callback(context: CallbackContext):
 
 
 ### "say" function
-def say(update, context):
-    phrase = update.message.text.replace('/imdb ', '')
-    context.bot.sendMessage(phrase)
+def say(update, context, chat=GROUPID):
+    phrase = update.message.text.replace('/dì ', '')
+    context.bot.sendMessage(chat_id=chat, text=phrase)
 
 ### IMDB url functions
 def imdbFilm(update, context):
