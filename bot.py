@@ -20,10 +20,11 @@ FILM, DATE, MAGNET = range(3)
 
 ### Help function
 def help(update, context):
-    context.bot.sendMessage(chat_id=update.effective_chat.id, text="""/time - invia l'orario
-/addFilm - avvia una chat per programmare un film
-/imdbFilm - manda il link di imdb del film cercato
-/help - mostra questo messaggio""")
+    context.bot.sendMessage(chat_id=update.effective_chat.id, text="""/orario - invia l'orario
+/dì - fa dire qualcosa ad Elsa
+/aggiungiFilm - avvia una chat per programmare un film
+/imdb - manda il link di imdb del film cercato
+/aiuto - mostra questo messaggio""")
 
 
 ### Time functions
@@ -52,9 +53,14 @@ def cache_callback(context: CallbackContext):
     apiHandler.populateCache()
 
 
+### "say" function
+def say(update, context):
+    phrase = update.message.text.replace('/imdb ', '')
+    context.bot.sendMessage(phrase)
+
 ### IMDB url functions
 def imdbFilm(update, context):
-    movies = ia.search_movie(update.message.text.replace('/imdbFilm ', ''))
+    movies = ia.search_movie(update.message.text.replace('/imdb ', ''))
     context.bot.sendMessage(chat_id=update.effective_chat.id, text='Miglior match:\nhttps://www.imdb.com/title/tt{}'.format(movies[0].movieID))
 
 
@@ -154,7 +160,7 @@ def main():
 
     # setting up film handler
     film_handler = ConversationHandler(
-        entry_points = [CommandHandler('addfilm', addFilm)],
+        entry_points = [CommandHandler('aggiungiFilm', addFilm)],
 
         states = {
             FILM: [MessageHandler(Filters.text, insertFilm)],
@@ -168,9 +174,10 @@ def main():
 
     # defining the commands to which the bot will reply and the associated function
     dispatcher.add_handler(film_handler)
-    dispatcher.add_handler(CommandHandler('imdbFilm', imdbFilm))
-    dispatcher.add_handler(CommandHandler('help', help))
-    dispatcher.add_handler(CommandHandler('time', timeMixed_command))
+    dispatcher.add_handler(CommandHandler('dì', say))
+    dispatcher.add_handler(CommandHandler('imdb', imdbFilm))
+    dispatcher.add_handler(CommandHandler('aiuto', help))
+    dispatcher.add_handler(CommandHandler('orario', timeMixed_command))
     dispatcher.add_handler(MessageHandler(Filters.command, unknown))
 
     updater.start_polling()
