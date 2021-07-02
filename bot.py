@@ -4,11 +4,14 @@ from datetime import time, datetime
 from pytz import timezone
 
 # import API handler
-from api import API, SAVED_APIS
+from api.api import API, SAVED_APIS
 
 # import imdb database and initialize object
-import imdb
-ia = imdb.IMDb()
+# import imdb
+# ia = imdb.IMDb()
+
+# import quotes
+from quotes.quotes import Quotes
 
 # import sensitive elements from separated python document
 from instanceElements import TK as TOKEN
@@ -32,8 +35,9 @@ def help(update, context):
 # content factory
 def timeMixed_content():
     time = datetime.now().strftime("%A %d/%m/%y, %H:%M")
-    apiResult = apiHandler.callRandomEndpoint()
-    return "{}\n{}".format(time, apiResult)
+    # apiResult = apiHandler.callRandomEndpoint()
+    quote = quotesHandler.get_random()
+    return "{}\n{}".format(time, quote)
 
 # base function
 def timeMixed(context, chat=GROUPID):
@@ -49,8 +53,8 @@ def timeMixed_callback(context: CallbackContext):
 
 ### API functions
 
-def cache_callback(context: CallbackContext):
-    apiHandler.populateCache()
+# def cache_callback(context: CallbackContext):
+#    apiHandler.populateCache()
 
 
 ### "say" function
@@ -143,18 +147,22 @@ def fallback(context, update):
 def main():
     global updater
     global apiHandler
+    global quotesHandler
 
     defaults = Defaults(tzinfo=timezone('Europe/Rome'), parse_mode='Markdown')
     updater = Updater(TOKEN, defaults=defaults, use_context=True)
     dispatcher = updater.dispatcher
 
     # Load saved apis
-    apiHandler = API(SAVED_APIS)
+    # apiHandler = API(SAVED_APIS)
+
+    # Load quotes
+    quotesHandler = Quotes('quotes/quotes.json')
 
     logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
     # scheduling of the callback functions to be called: timeMixed_callback every day of the week at 12:00 and 24:00 time of Rome (GMT+2 with daylight savings time)
-    updater.job_queue.run_daily(cache_callback, time=time(hour=16,minute=45))
+    # updater.job_queue.run_daily(cache_callback, time=time(hour=11))
     updater.job_queue.run_daily(timeMixed_callback, time=time(hour=12))
     updater.job_queue.run_daily(timeMixed_callback, time=time(hour=0))
 

@@ -1,0 +1,2405 @@
+{
+    "quotes": [
+        {
+            "ready": true,
+            "context": "Al concerto di Immanuel Casto a Festa Radio, Brescia",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "Tu cosa vuoi da bere, Gigi?",
+                    "notes": null
+                },
+                {
+                    "person": "G",
+                    "sentence": "Io una coca, devo guidare",
+                    "notes": "tirando su una canna"
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": "Suono di laurea strappata in lontananza",
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Il fattoriale di un prodotto è il prodotto dei fattoriali?",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "La salsiccia è d'obbligo",
+                    "notes": null
+                },
+                {
+                    "person": null,
+                    "sentence": null,
+                    "notes": "Dieci minuti dopo"
+                },
+                {
+                    "person": "A",
+                    "sentence": "Everyday salsiccia day",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Di figa e di fregna il baffo si impregna",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "Nobody",
+                    "sentence": null,
+                    "notes": null
+                },
+                {
+                    "person": "Absolutely nobody",
+                    "sentence": null,
+                    "notes": null
+                },
+                {
+                    "person": "M",
+                    "sentence": "Mi sta uscendo la coca dal naso",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "In fame e in carestia, ogni topo è leccornia",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Lavando i piatti a Revoleto",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Aripizz ha un grande superpotere, solo guardando una stoviglia può dire se è stata o meno in lavatrice",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": "FAT16",
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "Il mio sogno erotico: grassa e minorenne",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "La startup di Aripizz: Flexibus",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "If her age is on the clock, but her weight is not",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "Ma io voglio stuprare Lagrange",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "L'unica donna senza paura è una donna morta",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Io sono contro gli immigrati",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Stamattina siamo passati avanti a una Maserati dei pompieri",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Parlando di musica a Revoleto",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "Lapaz Toyota, di Guru, sempre Azonto",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Ma a me piace Basi di Dati",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "A lezione di Linguaggi di Programmazione",
+            "notes": "Gigi afferma di aver pronunciato il proprio nome ad alta voce e che il microfono abbia smesso di funzionare",
+            "dialogue": [
+                {
+                    "person": "Cazzola",
+                    "sentence": "Presentati",
+                    "notes": null
+                },
+                {
+                    "person": "G",
+                    "sentence": "Foscari",
+                    "notes": "bisbigliando"
+                },
+                {
+                    "person": "Cazzola",
+                    "sentence": "Eh?",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Se voglio guidare, Piña Colada",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": "Gigi si trovava in un punto molto basso della sua vita",
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Voglio questa frase sulla mia tomba",
+                    "notes": null
+                },
+                {
+                    "person": "G",
+                    "sentence": "Oh yes, sad yeds",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "Mich il millantatore",
+                    "sentence": "Per divina intercessione",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Si chiama As Nödt, con la gesundheit sulla o",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": "Spitting facts",
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "Assioma di Mich: dopo una certa soglia X di meme su un argomento, questi ultimi diventeranno dank naturalmente",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "Spotify",
+                    "sentence": "Plastic Hamburger by Fantastic Negrito",
+                    "notes": null
+                },
+                {
+                    "person": "G",
+                    "sentence": "Plastic Negrito mhmmmmmm",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Metti il tuo segno oroscopale",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "Un Pisquo salsa sempre i propri debiti",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Entrando nel bar di fisica, praticamente vuoto",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "Che cosa prendi?",
+                    "notes": null
+                },
+                {
+                    "person": "G",
+                    "sentence": null,
+                    "notes": "Si guarda attorno con enfasi"
+                },
+                {
+                    "person": "M",
+                    "sentence": null,
+                    "notes": null
+                },
+                {
+                    "person": "G",
+                    "sentence": null,
+                    "notes": "Continua a guardarsi attorno"
+                },
+                {
+                    "person": "M",
+                    "sentence": "Che stai facendo?",
+                    "notes": null
+                },
+                {
+                    "person": "G",
+                    "sentence": "Sto scegliendo un tavolo, ce ne sono troppi",
+                    "notes": null
+                },
+                {
+                    "person": "G",
+                    "sentence": null,
+                    "notes": "Sceglie un tavolo e si siede mentre Mich gli dà del disadattato"
+                },
+                {
+                    "person": "G",
+                    "sentence": "Ho scelto il tavolo sbagliato, ho il sole in faccia",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Contesto ignoto",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "Gliel'hai chiesto se era a Pisa?",
+                    "notes": null
+                },
+                {
+                    "person": "A",
+                    "sentence": "Comunque era a Pavia",
+                    "notes": null
+                },
+                {
+                    "person": "G",
+                    "sentence": "Quando?",
+                    "notes": null
+                },
+                {
+                    "person": "P",
+                    "sentence": "Dove?",
+                    "notes": null
+                },
+                {
+                    "person": "M",
+                    "sentence": "Mai",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Figa quanto è duro",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Nessuno sapeva quale fosse il contesto",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Ma come faccio ad arrivare con la bottiglia senza bottiglia?",
+                    "notes": null
+                },
+                {
+                    "person": "Samu",
+                    "sentence": "Ma te l'ho detto quando eri già qua, non è una scusa",
+                    "notes": null
+                },
+                {
+                    "person": "A",
+                    "sentence": "Ma se arrivo con la bottiglia mi denunciano",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Sui gruppi dell'università",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "Lavinia",
+                    "sentence": "Ah, io dopo Statistica e Linguaggi di Programmazione inizio a pensare che i CFU siano una grande bugia",
+                    "notes": null
+                },
+                {
+                    "person": "P",
+                    "sentence": "Come la tua laurea in fisica",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Devo googlare come si fanno i define in C, quanto sono caduto in basso a scrivere Scala",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Non ho nessun virus, sono solo stronza",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": null,
+                    "notes": "Inizia a ridere da solo"
+                },
+                {
+                    "person": "G",
+                    "sentence": null,
+                    "notes": "Si gira con sguardo perplesso"
+                },
+                {
+                    "person": "M",
+                    "sentence": "Niente, pensavo al Ponte Morandi",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "Stuprare un cadavere non è stupro",
+                    "notes": null
+                },
+                {
+                    "person": null,
+                    "sentence": null,
+                    "notes": "Dopo cinque minuti passati a spiegare l'affermazione di prima"
+                },
+                {
+                    "person": "P",
+                    "sentence": "Stuprare il tuo gatto non è zoofilia",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Sono piena di uccelli, sono una voliera",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "È talmente bassa che la odio",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Il consecutio mettitelo nel culo",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Mich ha detto che non mette la sveglia e viene in bici",
+                    "notes": null
+                },
+                {
+                    "person": "A",
+                    "sentence": "Cazzo di Don Matteo",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "T",
+                    "sentence": "Il mio sogno nel cassetto: essere filippino",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "Gigi usa Wix per fare i siti",
+                    "notes": "parlando con qualcuno diverso da Gigi"
+                },
+                {
+                    "person": "G",
+                    "sentence": "Chiamami figlio di puttana piuttosto",
+                    "notes": "alzando lo sguardo dal computer"
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Ho camminato le scale come il Montanelli",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Divento un gufo coi cingoli",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "Comunque per me il transumanesimo é uno stile di vita",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Mi fa ridere la parola gambizzato",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "La chiave della mia figa non è giusto che stia nei cassetti degli altri",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Le fontane di fumo col puzzone sono la mia aesthetic",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "They aripizzcheguardamaled him because he told the truth",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Ma questo have the puta madre",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": "Esultazione per il proprio script in Bash",
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "Minchia! Ma looppo come la madonna!",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Another flawless Arianna moment",
+                    "notes": null
+                },
+                {
+                    "person": "G",
+                    "sentence": "Another flawless Arianna Monga",
+                    "notes": "sordo"
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "La bacchetta di sambuca",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Metti la colonna sonora del Decamerone",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Durante una pandemia",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "Cough into me",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Avevo un quaderno con scritto \"sono Gigi figlio di puttana\"",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "Ma tu bro te la tarelli away o resti?",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Esci il silos",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Parlando della lezione di Embedded in cui, oltre al professore, l'unica altra telecamera attiva era quella di Folci",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "Io sono online per il cazzo di Folci",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "Come si vede il numero di processori?",
+                    "notes": null
+                },
+                {
+                    "person": "G",
+                    "sentence": "Più uno",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": "Nessuno ricorda più le ipotesi, ma la conclusione era formalmente corretta",
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "L'usb 3.0 è un'ottima idea?",
+                    "notes": null
+                },
+                {
+                    "person": "G",
+                    "sentence": "Sì",
+                    "notes": null
+                },
+                {
+                    "person": "M",
+                    "sentence": "Allora la trama di Footloose fa schifo",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Sono un professionista dell'ASMR dopotutto",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "T",
+                    "sentence": "Embrace the Dua Lipa",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": "Aveva sentito male 'educated guess'",
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Kitty Guess, di giorno cartomante e di notte prostituta",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "T",
+                    "sentence": "Olio balsamico",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Parlando dell'olocausto",
+            "notes": "Voleva dire lampada al posto di candela",
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Ah, i cosi dell'ebreo? Quella cosa che sua sorella è diventata una candela, no sua cugina",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Durante una pandemia",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "Vale la regola dei 30 secondi",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Parlando dell'introvabile documentazione di una board Huawei",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "È NELLE persone, quindi ora prendi un aereo per Shanghai e sventri un po' di ingegneri per scoprire come funziona",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "Com'è che si chiama la corrente superficiale del corpo?",
+                    "notes": null
+                },
+                {
+                    "person": "G",
+                    "sentence": "Apollice",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "T",
+                    "sentence": "Ditemi delle parole di 3 lettere",
+                    "notes": null
+                },
+                {
+                    "person": "A",
+                    "sentence": "Tè",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "Va be' io finisco di vedere il video di Freeda",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Flex paranoia",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "C'è del buono in tutto, ma nella lasagna non c'è bisogno di cercarlo",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Cruciverba: _acch__t_mag_ta",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Macchina tomagata",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "Noie e fastidi...",
+                    "notes": null
+                },
+                {
+                    "person": "M",
+                    "sentence": "PENE",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "La teoria del gender si sposa bene con La Guida Galattica per Autostoppisti",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Parlando di un messaggio che Davide ha mandato ai Vecchi, il suo altro gruppo di amici",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "La foto del cazzo è stata recepita bene",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Non voglio le chicche, ho già le salsicce",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "C'è sempre spazio per bruchi",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Se passo Statistica con 30 mi tatuo la Normale",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Meno male che Dani Nostro c'è",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "Finché ti piace Ichigo",
+                    "notes": "rivolgendosi a Mich"
+                },
+                {
+                    "person": "A",
+                    "sentence": "Stai zitto tu che non hai neanche finito di vederlo",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Scoglio Pazzo gang! L'hanno pure arrivata",
+                    "notes": "si rende conto di cosa sta dicendo e si ferma"
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Non ho voglia di leggere il Signore degli Anelli adesso",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Guardando una playlist",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Oooooh gli Empire of the Sun! Sono i miei Beatles",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Ho trovato il mio muovo motto: \"Cesa4eva\"",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Studiando Matematica del Continuo",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "Sì davvero è coseno 7",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Battlefield 1, sul Monte Grappa",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Armando Diaz: too fast for the kaiser",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "MA TI PARE CHE MI SERVA LA DOCUMENTAZIONE DI HTML?!",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Arianna aspirava a diventare tesista della Castano, ma il suo sogno è stato infranto, ha quindi iniziato ad attraversare le fasi di elaborazione del lutto, a questo punto era arrivata alla rabbia",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Meglio essere nazista che tesista della Castano",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Mangia, prega e uccidi",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "Vediamo che frase di Pavese sono",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "La vita di Tarallo divisa per il numero di esami tende a 0, perchè la vita di Tarallo è finita",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "Prima degli Urali devo passare Continuo",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Io vorrei tantissimo un borsello",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Patolle = patatine fritte",
+            "notes": "Turbofresh = ?",
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Manca poco alle patolle",
+                    "notes": null
+                },
+                {
+                    "person": "M",
+                    "sentence": "Turbofresh hai detto?",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "È una pizza, il pane con il ketchup, poi pucci nel latte ed è margherita",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "Quanto cazzo sono pitonico",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "...combusta?",
+                    "notes": "brucia"
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Discutendo di tesi e relatori",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "A sto punto meglio la Castano",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "Losca tusca topolino",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Fare una \"pizzeria\"",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": "L'attribuzione di questa citazione a Luigi è oggetto di grandi controversie",
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Drip news",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Ho aperto un teatro a Parigi di stand-up comedy",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Parlando di Trek all'orale con Bruschi",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "È in \"amo chat\" con Bruschi",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Perché sa tutto di sperma?",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": "Pensavano la frase di Mich fosse ridicola, ora usano quasi tutti un DE",
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "I DE sono bellissimi",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Mi può fare una sega la Castano, ho preso 28 al suo esame",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Bevendo una birra all'Ittolittos",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "Gigi facciamo un gioco, se almeno uno di noi è infetto qual è il minimo numero di sorsi che tutti devono prendere dalle birre altrui per far avere a tutti il Covid?",
+                    "notes": null
+                },
+                {
+                    "person": null,
+                    "sentence": null,
+                    "notes": "Dopo una discussione di 15 minuti"
+                },
+                {
+                    "person": "G",
+                    "sentence": "Sì secondo me la ricerca di un cammino euleriano in un grafo è riducibile a Circuit Satisfiability",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Parlando della trama del Signore degli Anelli",
+            "notes": "IMDB wants to know your location",
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "C'è un anello, c'è Gollum... no, c'è un anello, c'è Frodo. E Frodo lo deve buttare. E c'è un occhio gigante.",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Fingendo un saluto in giapponese",
+            "notes": "Voleva dire sempai",
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "È il Sampei",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Io lo so l'italiano, ma mi piace remixarlo",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Parlando di quante persone servono per fare un cerchio di sesso anale",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "No, però questa è una domanda interessante...",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Se non fossi una pianta flexerei",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Mich che scopre di poter compilare Onivim su Windows",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "Uso Windows per sviluppare",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Io volevo troppo toccarlo Pingu",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "La vita è come un tenerone, sono due, e noi siamo in tre",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "140 minuti... quant'è? 1 ora e quaranta?",
+                    "notes": null
+                },
+                {
+                    "person": "A",
+                    "sentence": "Dai! Sto studiando reti, non devo saper fare i calcoli",
+                    "notes": "in risposta al messaggio appena mandato"
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "T",
+                    "sentence": "Ti si crea uno stream di bestemmie in testa",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "Comunque se non hai bisogno dei locale ampliati per vedere il tuo hostname non sei nessuno",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Imitando le zanzare nel parco",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Oh raga, 'sti tre babbi di minchia si fanno succhiare",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Next stop: posizione del dio cristo per aprire il secondo buco del culo",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "POSSO",
+                    "notes": null
+                },
+                {
+                    "person": "A",
+                    "sentence": "Devo",
+                    "notes": null
+                },
+                {
+                    "person": "A",
+                    "sentence": "Cristo",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": "Voleva dire Trisavolo",
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Quartonno",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Vedendo una statua della Madonna in un fiume e venendo sopraffatta dalle emozioni",
+            "notes": "Voleva dire: \"Oddio, che spavento!\"",
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Oddio, che imbarazzo!",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Mal comune mezzo gangshit",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Sogno erotico: un raduno di Defender a Machu Picchu",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "Il leone, la strega e il cazzo che me ne frega",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Facendo una Parte 2 di un esame di Matematica del Continuo",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "Nell'ambito delle successioni, dare la definizione corrispondente ad una successione che tende a più infinito",
+                    "notes": "ad alta voce"
+                },
+                {
+                    "person": "G",
+                    "sentence": "Uh bello quello",
+                    "notes": null
+                },
+                {
+                    "person": "M",
+                    "sentence": null,
+                    "notes": "apre Instagram"
+                },
+                {
+                    "person": "M",
+                    "sentence": "Ma quindi è la versione sfigata della roba col valore assoluto?",
+                    "notes": "dopo cinque minuti di silenzio, mettendo giù il telefono"
+                },
+                {
+                    "person": "G",
+                    "sentence": "Giusto",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "Ma il popper è cheattare",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "Non c'è peggior sordo di Gigi con le airpods",
+                    "notes": null
+                },
+                {
+                    "person": "G",
+                    "sentence": "Eh?",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": "I vasi delle piante in Tobagi sono letteralmente davanti all'ingresso",
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Comunque raga ho sboccato in una pianta di Tobagi e anche fuori dal cancello",
+                    "notes": null
+                },
+                {
+                    "person": "A",
+                    "sentence": "Però in posti sneaky",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Io non ho tempo di parlare italiano",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Ringraziando Giulia per il suo perfetto lavoro come bot di Telegram",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "T",
+                    "sentence": "Thx G",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": false,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "No! Non è il tipo, è il fidanzato",
+                    "notes": null
+                },
+                {
+                    "person": null,
+                    "sentence": null,
+                    "notes": "Cinque minuti dopo"
+                },
+                {
+                    "person": "A",
+                    "sentence": "Non la odio, mi sta sul cazzo",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "Scusate ho dei cazzi dentro",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "No, ma a me piace di più tipo l'ingegneria del software",
+                    "notes": null
+                },
+                {
+                    "person": null,
+                    "sentence": null,
+                    "notes": "Poco dopo"
+                },
+                {
+                    "person": "P",
+                    "sentence": "Guarda che l'ingegneria del software è bella",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "I salvapiedi",
+                    "notes": null
+                },
+                {
+                    "person": "G",
+                    "sentence": "È così che Bertoncini chiama la sua galleria",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": "La citazione è confermata, l'autore non è Davide",
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Se stupri il tuo gatto non è omofobia",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Ubriaco alla sua laurea",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "T",
+                    "sentence": "Non vedo l'ora di morire",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Sempre ubriaco alla sua laurea",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "T",
+                    "sentence": "Sono mega ubriaco",
+                    "notes": null
+                },
+                {
+                    "person": "A",
+                    "sentence": "Ma va",
+                    "notes": null
+                },
+                {
+                    "person": "T",
+                    "sentence": "...stai zitta.",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Oh ma Megan Fox sta con Machine Gun Kelly",
+                    "notes": null
+                },
+                {
+                    "person": "G",
+                    "sentence": "Machine Learning Kelly, il nickname di Cesa",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Svuotando i cestini della spazzatura di Tobagi",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Ma dobbiamo buttare anche carta e puttane?",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "T",
+                    "sentence": "Emis Killa Malcontenta",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "7/11/2020 seconda quarantena",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Brava pizz",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "T",
+                    "sentence": "Io gioco solo a mmonga us",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Ermés... Er messo peggio",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Dollaro",
+                    "notes": null
+                },
+                {
+                    "person": "M",
+                    "sentence": "Dollaro dollaro dollaro dollaro dollaro dollaro",
+                    "notes": "evocando il suo Sapo Bully interiore"
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Non puoi usare il topocazzo contro di me",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "È stato molto facile installarlo con i flatpak",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Parlando ad un video della Gori",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "Hey, Anna",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "La crescita di un individuo è logaritmica",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "Mich e Pisquo",
+                    "sentence": "Dopo l'università della vita c'è l'università della Statale",
+                    "notes": "indipendentemente ma all'unisono"
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Occhio a volare vicino al sole, poi non ti molla più",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "Sono il programmatore di Python per antonomasia",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "Sto facendo un brain baby, questi concetti non sono così facili per me da graspare",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Parlando di Gigi",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "L'algoritmista del gruppo",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Il ciccione di Stranger Things",
+                    "notes": null
+                },
+                {
+                    "person": "G",
+                    "sentence": "Samvise Gamgee?",
+                    "notes": null
+                },
+                {
+                    "person": "A",
+                    "sentence": "Samvise Gangshit",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Parlando di Jupyter",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Ciupyter",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Ho ancora il burrito in gola",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Allora scrivo codice cancro",
+                    "notes": null
+                },
+                {
+                    "person": "G",
+                    "sentence": "Cancrodice",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Guardando le traduzioni italiane di Kung Fu Panda 2",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Capo dei lupi capo degli snitch",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Maestro bue infuriato",
+                    "notes": null
+                },
+                {
+                    "person": "M",
+                    "sentence": "Maestro bue infoiato",
+                    "notes": null
+                },
+                {
+                    "person": "A",
+                    "sentence": "Master horny ox",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "Dante era The Human Centipede ante litteram",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Una ciliegia non fa primavera, non ti agitare",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Participio passato di prevedere?",
+                    "notes": null
+                },
+                {
+                    "person": "A",
+                    "sentence": "No scusa presente",
+                    "notes": null
+                },
+                {
+                    "person": "A",
+                    "sentence": "Io previsto",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "Una donna non si tocca neanche con una macchina",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Viva la zoofilia paraponziponzipo",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": "Non era Arianna stranamente",
+            "dialogue": [
+                {
+                    "person": "P",
+                    "sentence": "Drippo sugo niente arrosto",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Parlando di Zac Efron durante la visione di High School Musical",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Grande no, lo voglio piccolo",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Parlando dei pantaloni di Vanessa Hudgens",
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "La scollatura di figa",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "G",
+                    "sentence": "Eh ma c'hai la mamma... impegnata eh",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Sto andando avanti a scrivere la tesi che non ho cazzi di pensare",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": null,
+            "notes": null,
+            "dialogue": [
+                {
+                    "person": "A",
+                    "sentence": "Magari il gelato al pistacchio sapesse di sperma",
+                    "notes": null
+                }
+            ]
+        },
+        {
+            "ready": true,
+            "context": "Parlando dei bombardamenti della seconda guerra mondiale",
+            "notes": "Si riferiva a I racconti di Canterbury",
+            "dialogue": [
+                {
+                    "person": "M",
+                    "sentence": "Coventry, quella del Decamerone bootleg",
+                    "notes": null
+                }
+            ]
+        }
+    ]
+}
